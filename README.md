@@ -1,2 +1,2 @@
 # demon
-Java framework for holographic display
+Swift framework for holographic display
