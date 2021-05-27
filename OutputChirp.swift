@@ -1,28 +1,28 @@
 
 func Chirp(
-var SourceOne:Set =
+var SourceOne: Set =
 [1.0:"Origin",
 2.33:"Constructive",
 3.66:"Destructive",
 4.99:"Recycle"]
-Let SourceTwo:Set =
+Var SourceTwo: Set =
 [1.0:"Origin",,
 2.33:"Constructive",
 3.66:"Destructive",
 4.99:"Recycle"]
  
-Let InPointsOne:Set =
+var InPointsOne: Set =
 [1:"IntOrigin",
 2:"IntConstructive",
 3:"IntDestructive",
 4:"IntRecycle"]
-Let InPointsTwo:Set =
+var InPointsTwo: Set =
 [1:"IntOrigin",
 2:"IntConstructive",
 3:"IntDestructive",
 4:"IntRecycle",
 
-Let BPointsOneSrc:Set =
+var BPointsOneSrc: Set =
 [0.0:"Origin",
 0.11:"Constructive",
 0.55:"Destructive",
@@ -39,7 +39,7 @@ Let BPointsOneSrc:Set =
 3.11:"Constructive",
 3.55:"Destructive",
 3.77:"Recycle"]
- Let BPointsTwoSrc
+var BPointsTwoSrc: Set =
 [2.22:"Origin",
 2.44:"Constructive",
 2.66:"Destructive",
@@ -47,8 +47,8 @@ Let BPointsOneSrc:Set =
 3.22:"Origin",
 3.44:"Constructive",
 3.66:"Destructive",
-3.88:"Recycle"]:
-[4.22:"Origin",
+3.88:"Recycle",
+4.22:"Origin",
 4.44:"Constructive",
 4.66:"Destructive",
 4.88:"Recycle"]:
