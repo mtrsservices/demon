@@ -1,62 +1,52 @@
 
 func Chirp(
-var SourceOne:Dict [double:String]=
-[1.0:"Origin"],
-2.33:"Constructive"],
-3.66:"Destructive"],
-4.99:"Recycle"]
-var SourceTwo: Dict [double:String]=
-[1.0:"Origin"],
-2.33:"Constructive"],
-3.66:"Destructive"],
+var SourceOne:Set =
+1.0:"Origin",
+2.33:"Constructive",
+3.66:"Destructive",
+4.99:"Recycle",
+var SourceTwo:Dict =
+1.0:"Origin",,
+2.33:"Constructive",
+3.66:"Destructive",
 4.99:"Recycle"]
  
-var InPointsOne:Dict;
-[int:String]=
-[1:"IntOrigin"],
-2:"IntConstructive"],
-3:"IntDestructive"],
-4:"IntRecycle"]
- 
-var InPointsTwo:Dict=
-[int:String]=
-[1:"IntOrigin",
+var InPointsOne:Set
+=
+1:"IntOrigin",
 2:"IntConstructive",
 3:"IntDestructive",
 4:"IntRecycle"]
+Let InPointsTwo:Set=
+=
+1:"IntOrigin",
+2:"IntConstructive",
+3:"IntDestructive",
+4:"IntRecycle",
 
 var BPointsOneSrc
-[[double:String]:[float:String]:[float:String]:[float:String]]=
 [0.0:"Origin",
 0.11:"Constructive",
 0.55:"Destructive",
-0.77:"Recycle"]:
-[0.99:"Origin",
+0.77:"Recycle":
+0.99:"Origin",
 1.11:"Constructive",
 1.55:"Destructive",
-1.77:"Recycle"]:
-[1.99:"Origin",
+1.77:"Recycle",
+1.99:"Origin",
 2.11:"Constructive",
 2.55:"Destructive",
-2.77:"Recycle"]:
-[2.99:"Origin",
+2.77:"Recycle":
+2.99:"Origin",
 3.11:"Constructive",
 3.55:"Destructive",
-3.77:"Recycle"]:
- var BPointsTwoSrc
-[[float:String]:[float:String]:[float:String]:[float:String]
-
-[float:String]:[float:String]:[float:String]:[float:String]
-
-[float:String]:[float:String]:[float:String]:[float:String]
-
-[float:String]:[float:String]:[float:String]:[float:String]
-]
+3.77:"Recycle"]
+ Let BPointsTwoSrc
 [2.22:"Origin",
 2.44:"Constructive",
 2.66:"Destructive",
-2.88:"Recycle"]:
-[3.22:"Origin",
+2.88:"Recycle",
+3.22:"Origin",
 3.44:"Constructive",
 3.66:"Destructive",
 3.88:"Recycle"]:
