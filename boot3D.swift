@@ -69,70 +69,70 @@ var isometries:Set
 'axioms':"",36]
 let off=isoMetries[36]
 switch on {
-case isoMetries[1]
-print(isoMetries[2])
-case isoMetries[2]
-print(isoMetries[3])
-case isoMetries[3]
-print(isoMetries[4])
-case isoMetries[4]
-print(isoMetries[5])
-case isoMetries[5]
-print(isoMetries[6])
-case isoMetries[6]
-print(isoMetries[7])
-case isoMetries[7]
-print(isoMetries[8])
-case isoMetries[8]
-print(isoMetries[9])
-case isoMetries[9]
-print(isoMetries[10])
-case isoMetries[11]
-print(isoMetries[12])
-case isoMetries[12]
-print(isoMetries[13])
-case isoMetries[13]
-print(isoMetries[14])
-case isoMetries[14]
-print(isoMetries[15])
-case isoMetries[15]
-print(isoMetries[16])
-case isoMetries[16]
-print(isoMetries[17])
-case isoMetries[17]
-print(isoMetries[18])
-case isoMetries[18]
-print(isoMetries[19])
-case isoMetries[19]
-print(isoMetries[20])
-case isoMetries[21]
-print(isoMetries[22])
-case isoMetries[22]
-print(isoMetries[23])
-case isoMetries[23]
-print(isoMetries[24])
-case isoMetries[24]
-print(isoMetries[25])
-case isoMetries[25]
-print(isoMetries[26])
-case isoMetries[26]
-print(isoMetries[27])
-case isoMetries[27]
-print(isoMetries[28])
-case isoMetries[28]
-print(isoMetries[29])
-case isoMetries[29]
-print(isoMetries[30])
-case isoMetries[31]
-print(isoMetries[32])
-case isoMetries[32]
-print(isoMetries[33])
+{let "url/60"=URL("/dimen/isoMetries[1]")
+let "url/59"=URL("/dimen/isoMetries[2]")
+let "url/58"=URL("/dimen/isoMetries[2]")
+let "url/57"=URL("/dimen/isoMetries[3]")
+let "url/56"=URL("/dimen/isoMetries[3]")
+let "url/55"=URL("/dimen/isoMetries[4]")
+let "url/54"=URL("/dimen/isoMetries[4]")
+let "url/53"=URL("/dimen/isoMetries[5]")
+let "url/52"=URL("/dimen/isoMetries[5]")
+let "url/51"=URL("/dimen/isoMetries[6]")
+let "url/50"=URL("/dimen/isoMetries[6]")
+let "url/49"=URL("/dimen/isoMetries[7]")
+let "url/48"=URL("/dimen/isoMetries[7]")
+let "url/47"=URL("/dimen/isoMetries[8]")
+let "url/46"=URL("/dimen/isoMetries[8]")
+let "url/45"=URL("/dimen/isoMetries[9]")
+let "url/44"=URL("/dimen/isoMetries[9]")
+let "url/43"=URL("/dimen/isoMetries[10]")
+let "url/42"=URL("/dimen/isoMetries[11]")
+let "url/41"=URL("/dimen/isoMetries[12]")
+let "url/40"=URL("/dimen/isoMetries[12]")
+let "url/39"=URL("/dimen/isoMetries[13]")
+let "url/38"=URL("/dimen/isoMetries[13]")
+let "url/37"=URL("/dimen/isoMetries[14]")
+let "url/36"=URL("/dimen/isoMetries[14]")
+let "url/35"=URL("/dimen/isoMetries[15]")
+let "url/34"=URL("/dimen/isoMetries[15]")
+let "url/33"=URL("/dimen/isoMetries[16]")
+let "url/32"=URL("/dimen/isoMetries[16]")
+let "url/31"=URL("/dimen/isoMetries[17]")
+let "url/30"=URL("/dimen/isoMetries[17]")
+let "url/29"=URL(/dimen/isoMetries[18])
+let "url/28"=URL("/dimen/isoMetries[18]")
+let "url/27"=URL("/dimen/isoMetries[19]")
+let "url/26"=URL("/dimen/isoMetries[19]")
+let "url/25"=URL("/dimen/isoMetries[20]")
+let "url/24"=URL("/dimen/isoMetries[21]")
+let "url/23"=URL("/dimen/isoMetries[22]")
+let "url/22"=URL("/dimen/isoMetries[22]")
+let "url/21"=URL("/dimen/isoMetries[23]")
+let "url/20"=URL("/dimen/isoMetries[23]")
+let "url/19"=URL("/dimen/isoMetries[24]")
+let "url/18"=URL("/dimen/isoMetries[24]")
+let "url/17"=URL("/dimen/isoMetries[25]")
+let "url/16"=URL("/dimen/isoMetries[25]")
+let "url/15"=URL("/dimen/isoMetries[26]")
+let "url/14"=URL("/dimen/isoMetries[26]")
+let "url/13"=URL("/dimen/isoMetries[27]")
+let "url/12"=URL("/dimen/isoMetries[27]")
+let "url/11"=URL("/dimen/isoMetries[28]")
+let "url/10"=URL("/dimen/isoMetries[28]")
+let "url/9"=URL("/dimen/isoMetries[29]")
+let "url/8"=URL("/dimen/isoMetries[29]")
+let "url/7"=URL("/dimen/isoMetries[30]")
+let "url/6"=URL("/dimen/isoMetries[31]")
+let "url/5"=URL("/dimen/isoMetries[32]")
+let "url/4"=URL("/dimen/isoMetries[32]")
+let "url/3"=URL("/dimen/isoMetries[33]")
 case isoMetries[33]
-print(isoMetries[34])
+let "url/2"=URL("/dimen/isoMetries[34]")
 case isoMetries[34]
-print(isoMetries[35])
+let "ur/1"=URL("/dimen/isoMetries[35]")
 case isoMetries[35]
-print(isoMetries[37])
+let "url/0"=URL("/dimen/isoMetries[37]")
 default: 
 print(off)
-}
+} 
