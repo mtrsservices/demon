@@ -28,6 +28,8 @@ let opticalDensity=T,{\\displaystyle \\tau =\\ln \\left({\\frac {\\Phi _{\\mathr
 //snellsLaw
 let snellsLaw2=0,{\\displaystyle {\\frac {\\sin \\theta _{2}}{\\sin      \\theta _{1}}}={\\frac {v_{2}}{v_{1}}}={\\frac {n_{1}}{n_{2}}}};
 //Schrödinger equation
-Schrödinger=
+let Schrödinger:float=
 t).{\\displaystyle i\\hbar {\\frac {  \\partial }{\\partial t}}\\Psi (x,t)=\\left[-{\\frac {\\hbar ^{2}}{2m}}{\\frac {\\partial ^{2}}{
 \\partial x^{2}}}+V(x,t)\\right]\\Psi (x,t)\,.;
+let OpenHalfSpace:float = a_{1}x_{1}+a_{2}x_{2}+\cdots +a_{n}x_{n}>b
+let ClosedHalfSpace:float = a_{1}x_{1}+a_{2}x_{2}+\cdots +a_{n}x_{n}\geq b
