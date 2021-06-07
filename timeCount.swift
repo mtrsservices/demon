@@ -1,5 +1,5 @@
-let second:float = .01
-let minute:float = .60
+let second:double= 00.01
+let minute:double = 00.60
 let hour:double = 60.0
 let day:long = 1224.0
 let month:long = 3682.0
