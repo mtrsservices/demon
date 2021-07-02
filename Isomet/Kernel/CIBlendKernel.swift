@@ -112,28 +112,65 @@ class CIBlendKernel : CIColorKernel{
                             [var mutableString=+"let (mutableString:String="multiply")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that uses the hue and saturation of the background image with the luminance of the foreground image.}
 {//class var multiply: CIBlendKernel
+      [var mutableString=//let (mutableString:String="Overlay")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="Overlay")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that multiplies the background image sample color with the foreground image sample color.}
 {//class var overlay: CIBlendKernel
+        [var mutableString=//let (mutableString:String="pinLight")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="pinLight")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that either multiplies or screens the foreground image samples with the background image samples, depending on the background color.}
 {//class var pinLight: CIBlendKernel
+        [var mutableString=//let (mutableString:String="Saturation")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="Saturation")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that conditionally replaces background image samples with source image samples depending on the brightness of the source image samples.}
 {//class var saturation: CIBlendKernel
+        [var mutableString=//let (mutableString:String="screen")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="screen")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that uses the luminance and hue values of the background image with the saturation of the foreground image.}
 {//class var screen: CIBlendKernel
+        [var mutableString=//let (mutableString:String="softLight")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="softLight")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that multiplies the inverse of the foreground image samples with the inverse of the background image samples.}
 {//class var softLight: CIBlendKernel
+        [var mutableString=//let (mutableString:String="source")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="source")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that either darkens or lightens colors, depending on the foreground image sample color.}
 {//class var source: CIBlendKernel
+        [var mutableString=//let (mutableString:String="sourceAtop")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="sourceAtop")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that returns the foreground input image.
 {//class var sourceAtop: CIBlendKernel
+        [var mutableString=//let (mutableString:String="sourceIn")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="sourceIn")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that places the foreground over the background and crops based on the visibility of the background.}
 {//class var sourceIn: CIBlendKernel
+        [var mutableString=//let (mutableString:String="sourceOut")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="sourceOut")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that places the foreground over the background and crops based on the visibility of both.}
 {//class var sourceOut: CIBlendKernel
+        [var mutableString=//let (mutableString:String="sourceOver")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="sourceOver")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that uses the foreground image to define what to take out of the background image.}
 {//class var sourceOver: CIBlendKernel
+        [var mutableString=//let (mutableString:String="subtract")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="subtract")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that places the foreground image over the input background image.}
 {//class var subtract: CIBlendKernel
+        [var mutableString=//let (mutableString:String="vividLight")+Int->(CIBlendKernel=mutableString)+Int}"
+      :true],
+                            [var mutableString=+"let (mutableString:String="vividLight")+Int->(CIBlendKernel=mutableString)+Int}":false]
 {//A blend kernel that subtracts the background image sample color from the foreground image sample color.}
 {//class var vividLight: CIBlendKernel
+  
 {//A blend kernel that burns or dodges colors by changing contrast, depending on the blend color.}
